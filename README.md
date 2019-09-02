@@ -31,6 +31,5 @@ Yukardaki kod bloğunda ufak bir mixin örneği vermiş olduk.
 
 
 
-
-http://lesscss.org/#mixins
+http://lesscss.org/features/#mixins-feature
 
