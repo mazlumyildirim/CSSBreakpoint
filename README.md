@@ -4,6 +4,8 @@
 
 > Kodlarda tekrarı önlemek, yönetebilirliği arttırmak ve kodu kısmen nesneleştirmek için oluşturulan, tekrar kullanılabilir özel tanımlanmış kod gruplarıdır.
 
+Mixin'ler ile ilgi olarak örnek verecek olursak;
+
 ```
 .box {
     border: 1px solid rgba(34, 255, 21, .6);
@@ -20,6 +22,10 @@
     .box();
 }
 ``` 
+
+Yukardaki kod bloğunda ufak bir mixin örneği vermiş olduk.
+
+
 
 
 
