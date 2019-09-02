@@ -25,7 +25,44 @@ Mixin'ler ile ilgi olarak örnek verecek olursak;
 
 Yukardaki kod bloğunda ufak bir mixin örneği vermiş olduk.
 
+###### Parametre belirterek kullanım
 
+```
+.absolute (@left, @top: 10px){
+    position: absolute;
+    top: @top;
+    left: @left;
+}
+
+.block {
+    .absolute(100px, 25px);
+}
+
+```
+
+###### Fonksiyon olarak kullanım
+
+```
+.block {
+    background: fadeout(red, 60%);
+}
+
+```
+
+###### İşlemler
+
+```
+.block {
+    margin: 5px * 2;
+}
+
+&&
+
+.block {
+    width: (100% - 20px) / 2;
+}
+
+```
 
 
 
